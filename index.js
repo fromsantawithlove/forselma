@@ -8,7 +8,7 @@ var newHTML = '';
 // the gif generator stuff:
 
 // the actual calendar:
-if(monthNo != 10) {
+if(monthNo != 11) {
 		dayNo = 24; // so that the rest of the year the doors are always open
 }
 
