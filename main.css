@@ -227,5 +227,5 @@
 	  border: 0.35rem solid #217560;
 	  z-index: 0;
 }
-	.article:hover .box.closedDoor { -webkit-transform: none; transform: none; }
+	.article:hover .box.closedDoor { -webkit-transform: none; transform: none; cursor: url('resources/shantilopiMini.png'), auto;}
 
