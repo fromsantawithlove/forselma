@@ -12,7 +12,7 @@ if (!String.format) {
 
 var dateObj = new Date();
 var monthNo = dateObj.getMonth();
-var dayNo = dateObj.getDate();
+var dayNo = dateObj.getDate() -1;
 //var HTML = "<h0>{0}</h0><h1>{3}</h1><iframe src='{1}' frameborder='0' scrolling='no' allowfullscreen width='640' height='405'></iframe><div><a id='LINK' href='{2}'>:smile:</a></div>";
 var HTML = "<div id='dayno'><h0>{0}</h0></div><h0>{3}</h0><div id='image'><img src='resources/bubu/{1}' alt='Shantilopi' width='640' height='405'></img></div><div><a id='LINK' href='{2}'>🎅</a></div>";
 var dayHTML = '';
